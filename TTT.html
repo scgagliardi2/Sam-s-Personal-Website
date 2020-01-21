@@ -3,51 +3,49 @@
     <head>
         <meta charset="utf-8" />
         <title>Tic Tac Toe</title>
-        <link rel="stylesheet" type="text/css" href="./TTT.css">
+        <link rel="stylesheet" type="text/css" href="SPW.css">
         <script src="./TTT.js" type="text/javascript" charset="utf-8">
         </script>
     </head>
-    <body>
+    <body style="background-color: powderblue;">
         <main>
             <h1>Tic Tac Toe</h1>
             <hr>
             <div class="tttboard">
-                <div id="tl" class="button" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
+                <div id="tl" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
                     
                 </div>
-                <div id="tm" class="button" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
+                <div id="tm" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
                     
                 </div>
-                <div id="tr" class="button" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid">
+                <div id="tr" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid">
                     
                 </div>
-                <div id="ml" class="button" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
+                <div id="ml" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
                     
                 </div>
-                <div id="mm" class="button" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
+                <div id="mm" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid; border-right:2px solid">
                     
                 </div>
-                <div id="mr" class="button" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid">
+                <div id="mr" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-bottom:2px solid">
                     
                 </div>
-                <div id="bl" class="button" onclick="placeMove(this.id, turn);" style="border-right:2px solid">
+                <div id="bl" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-right:2px solid">
                     
                 </div>
-                <div id="bm" class="button" onclick="placeMove(this.id, turn);" style="border-right:2px solid">
+                <div id="bm" class="tttbutton" onclick="placeMove(this.id, turn);" style="border-right:2px solid">
                     
                 </div>
-                <div id="br" class="button" onclick="placeMove(this.id, turn);" >
+                <div id="br" class="tttbutton" onclick="placeMove(this.id, turn);" >
                     
                 </div>
                 <h3 id="tttDisplay">O's turn.</h3>
                 <h4 id="tttInfo"></h4>
                 <br>
-                <button class="rbutton" onclick="reset();">
+                <button class="tttrbutton" onclick="reset();">
                     RESET
                 </button>
             </div>
         </main>
-        <footer>
-        </footer>
     </body>
 </html>
