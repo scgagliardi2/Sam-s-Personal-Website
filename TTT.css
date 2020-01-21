@@ -1,0 +1,60 @@
+* {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: powderblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tttboard {
+    max-width:360px;
+    margin: auto;
+    overflow: visible;
+    text-align: center;
+}
+
+.button {
+    width: 116px;
+    height: 116px;
+    float: left;
+    text-align:center;
+    border: none;
+    color: Black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+}
+
+.button:hover {
+    background-color: rgb(135, 196, 204);
+}
+
+.rbutton {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(250, 250, 210);
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    overflow: visible;
+    border-radius: 5px;
+    float: center;
+}
+
+.rbutton:hover {
+    background-color: rgb(243, 243, 166);
+}
