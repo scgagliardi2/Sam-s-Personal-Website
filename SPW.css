@@ -43,7 +43,6 @@ body {
     color: Black;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 80px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
