@@ -10,21 +10,34 @@
 }
 
 .headshot {
-    width: 40%; 
+    width: 50%; 
     border-radius: 50%; 
     margin: auto; 
     padding: 3%;
-}
-
-.nav {
-    float: left;
-    width: 25%;
-    background-color: inherit;
+    border-style: ridge;
 }
 
 body {
     margin: auto;
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(184, 190, 197);
+}
+
+.projcont {
+    width: 98%;
+    margin: auto;
+    text-align: center;
+}
+
+.project {
+    float: left;
+    max-width: 300px;
+    width: 30%;
+    height: 250px;
+    padding: 2%;
+    margin: 2%;
+    background-color: white;
+    border-radius: 10px;
+    border-style: outset;
 }
 
 .tttboard {
@@ -68,12 +81,4 @@ body {
 
 .tttrbutton:hover {
     background-color: rgb(243, 243, 166);
-}
-
-.project {
-    float: left;
-    width: 29%;
-    height: width;
-    margin: 7%;
-    background-color: white;
 }
