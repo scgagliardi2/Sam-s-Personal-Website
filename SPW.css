@@ -2,18 +2,18 @@
     font-family: Tahoma, Geneva, sans-serif;
 }
 
-.top {
-    text-align:center;
-    width: 100%;
+.infocard {
+    width: 98%;
     background-color: white;
-    height: 300px;
+    border-radius: 8px;
+    margin: auto;
 }
 
 .headshot {
-    width: inherit; 
-    border-radius: 50%;  
-    margin: auto;
-    padding: 5%;
+    width: 40%; 
+    border-radius: 50%; 
+    margin: auto; 
+    padding: 3%;
 }
 
 .nav {
@@ -24,19 +24,7 @@
 
 body {
     margin: auto;
-    background-color: rgb(40, 40, 40);
-}
-
-h3 {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
+    background-color: rgb(60, 60, 60);
 }
 
 .tttboard {
