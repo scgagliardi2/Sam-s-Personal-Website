@@ -7,6 +7,7 @@
     background-color: white;
     border-radius: 8px;
     margin: auto;
+    border-style: solid;
 }
 
 .headshot {
@@ -25,19 +26,44 @@ body {
 .projcont {
     width: 98%;
     margin: auto;
-    text-align: center;
 }
 
 .project {
     float: left;
     max-width: 300px;
     width: 30%;
-    height: 250px;
-    padding: 2%;
+    height: 450px;
     margin: 2%;
     background-color: white;
     border-radius: 10px;
     border-style: outset;
+}
+
+.projimg {
+    width: 80%;
+    margin: auto;
+}
+
+.projdesc {
+    text-align: center;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.langsUsed {
+    float: right;
+    width: 10%;
+    margin: 5px;
+}
+
+a:link, a:visited, a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: blue;
 }
 
 .tttboard {
