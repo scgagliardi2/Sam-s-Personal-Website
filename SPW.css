@@ -68,6 +68,12 @@ body {
   margin: 5px;
 }
 
+.langsUsedPython {
+  float: right;
+  width: 15%;
+  margin: 5px;
+}
+
 a:link,
 a:visited,
 a:active {
