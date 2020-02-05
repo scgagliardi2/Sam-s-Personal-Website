@@ -1,7 +1,7 @@
 * {
   font-family: "Roboto";
 }
-
+/*index.html css*/
 .infocard {
   width: 100%;
   background-color: white;
@@ -86,6 +86,7 @@ a:hover {
   color: blue;
 }
 
+/*Tic tac toe css*/
 .tttboard {
   max-width: 360px;
   margin: auto;
