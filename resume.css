@@ -1,0 +1,71 @@
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.titleBlock {
+  background-color: rgb(1, 1, 65);
+  color: white;
+  font-weight: bold;
+  width: 960px;
+  padding-left: 40px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+.mainBlock {
+  width: 1000px;
+  margin: auto;
+  height: 900px;
+}
+
+.leftBlock {
+  width: 70%;
+  float: left;
+  background-color: rgb(199, 199, 199);
+  height: 100%;
+}
+
+.rightBlock {
+  width: 30%;
+  float: left;
+  background-color: rgb(126, 126, 126);
+  height: 100%;
+}
+
+h2,
+h3 {
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+.shortDash {
+  width: 80%;
+  float: left;
+}
+
+.leftBlockText {
+  margin: 10px;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+    color: rgb(2, 2, 177);
+  }
+  
