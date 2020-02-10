@@ -28,7 +28,7 @@ body {
 .leftBlock {
   width: 70%;
   float: left;
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(207, 207, 207);
   height: 100%;
 }
 
@@ -48,12 +48,12 @@ p {
   margin-top: 0px;
 }
 
-.shortDash {
-  width: 80%;
+.dash {
+  width: 90%;
   float: left;
 }
 
-.leftBlockText {
+.rightBlockText {
   margin: 10px;
 }
 
@@ -66,6 +66,13 @@ a:active {
 }
 
 a:hover {
-    color: rgb(2, 2, 177);
-  }
-  
+  color: rgb(2, 2, 177);
+}
+
+.leftBlockSection {
+  padding-left: 40px;
+}
+
+.section {
+  width: 90%;
+}
