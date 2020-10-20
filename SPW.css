@@ -6,6 +6,11 @@
   width: 100%;
   background-color: white;
   margin: auto;
+  border-radius: 10px;
+}
+
+.infocard:hover {
+  transform: scale(2, 2);
 }
 
 .headshot {
@@ -31,7 +36,7 @@
 
 body {
   margin: auto;
-  background-color: rgb(136, 136, 136);
+  background-color: rgb(200, 200, 200);
   padding: 10px
 }
 
@@ -48,7 +53,6 @@ body {
   margin: 2%;
   background-color: white;
   border-radius: 10px;
-  border-style: outset;
   padding: 10px;
 }
 
