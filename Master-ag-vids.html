@@ -15,7 +15,35 @@
             GET HTTP request */
                 
     $.getJSON("https://api.ipify.org?format=json", function(data) {
-        
+        const url='https://5507017.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=1872&deploy=1&compid=5507017&h=90c73389d72d5b841bb5&ip='+data.ip;            
+                    console.log('url', url)
+                    $.get({
+
+                        url: url,
+
+                        // type: 'GET',
+
+                        // crossDomain: true,
+
+                        // dataType: "jsonp",
+
+                        // password: '846oacUzDH7m',
+
+                        // username: 'sgagliardi@anchorgroup.tech',
+
+                        success: function(result) {
+
+                            console.log('result', result)
+
+                        },
+
+                        error: function(err) {
+
+                            console.log('error', err)
+
+                        }
+
+                    })'
         // Setting text of element P with id gfg
         $("#gfg").html(data.ip);
     })
